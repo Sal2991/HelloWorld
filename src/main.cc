@@ -6,7 +6,7 @@
 
 int main() {
   std::println("Hello!");
-  std::cout << "Type a number: ";
+  std::cout << "Type a number1: ";
   int x;
   std::cin >> x;
   std::cout << "Your number is: " << x << std::endl;
