@@ -1,8 +1,5 @@
 #include <iostream>
 #include <print>
-// cd build/
-// then save, then cmake —build .
-// then .\main.exe
 
 int main() {
   std::println("Hello!");
