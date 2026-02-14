@@ -7,11 +7,14 @@ int main() {
     std::println("Hello!");
     std::cout << "World!" << std::endl;
     while (true) {
-        x = x + 1;
+        x++;
         std::cout << x << std::endl;
         y = x;
-        if (y == 50) {
-            std::cout << "y is 50" << std::endl;
+        if (y % 2 == 0) {
+            std::cout << "y is even" << std::endl;
+        }
+        if (y == 500) {
+            std::cout << "y is 500" << std::endl;
             break;
         }
     }
