@@ -11,6 +11,7 @@ int main() {
     int i;
     for (i = 0; i < dash; i++){
         std::cout << "-----------------------\n";
+        // could automate this to have customizable column amount.
         std::cout << "||  " << x << "  ||  " << x << "  ||  "<< x << "  ||\n";
     } if (i == dash){
         std::cout << "-----------------------\n";
