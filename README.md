@@ -1,7 +1,8 @@
 # HelloWorld C++ Project
 A simple C++ project using CMake.
 
-## How to Build
-1. Create a build directory
-2. Run CMake: `cmake ..`
-3. Build: `cmake --build .`
+## Notes for self
+1. cd build/
+2. then save, then cmake —build .
+3. then .\main.exe
+4. or use cmake --build . ; .\main.exe
