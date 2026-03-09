@@ -1,15 +1,26 @@
 #include <iostream>
 
-void getNum(){
-    int array[] = {};
-    for (int i = 0; i < 10; i++){
-        std::cout << "Please enter number " << i << "\n";
-        std::cin >> array[i];
-    }
-}
-
 
 int main() {
-    getNum();
+    int i;
+    int row;
+    int column;
+    std::string y = "";
+    std::cout << "text\n";
+    std::cin >> y;
+    std::cout << "amount of columns\n";
+    std::cin >> row;
+    std::cout << "amount of rows\n";
+    std::cin >> column;
+    std::string x = "[ " + y + " ] ";
+    for(int k = 0; k < column; k++){
+
+        std::cout << std::string(x.length() * row - 1, '-') + '\n';
+        for (int j = 0; j < row; j++){
+            std::cout << x;
+        }
+        std::cout << "\n";
+    }
+    std::cout << std::string(x.length() * row - 1, '-') + '\n';
     return 0;
 }
