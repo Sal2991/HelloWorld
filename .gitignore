@@ -1,1 +1,12 @@
+# Block Visual Studio's internal cache and user preferences
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Block compiler build outputs (covers your x64-Debug and Ninja outputs)
 build/
+out/
+bin/
+obj/
